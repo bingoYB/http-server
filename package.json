@@ -1,11 +1,11 @@
 {
-  "name": "http-server",
-  "version": "0.12.3",
-  "description": "A simple zero-configuration command-line http server",
+  "name": "http-server-ext",
+  "version": "0.12.4",
+  "description": "A simple zero-configuration command-line http server Extend on the basis of http-server ",
   "main": "./lib/http-server",
   "repository": {
     "type": "git",
-    "url": "git://github.com/http-party/http-server.git"
+    "url": "git://github.com/bingoYB/http-server.git"
   },
   "keywords": [
     "cli",
@@ -85,6 +85,8 @@
     "colors": "^1.4.0",
     "corser": "^2.0.1",
     "ecstatic": "^3.3.2",
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
     "http-proxy": "^1.18.0",
     "minimist": "^1.2.5",
     "opener": "^1.5.1",
@@ -98,7 +100,7 @@
     "vows": "~0.8.3"
   },
   "bugs": {
-    "url": "https://github.com/http-party/http-server/issues"
+    "url": "https://github.com/bingoYB/http-server/issues"
   },
   "license": "MIT",
   "preferGlobal": true,

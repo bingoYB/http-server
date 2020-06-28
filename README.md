@@ -2,6 +2,12 @@
 [![npm](https://img.shields.io/npm/v/http-server.svg?style=flat-square)](https://www.npmjs.com/package/http-server) [![homebrew](https://img.shields.io/homebrew/v/http-server?style=flat-square)](https://formulae.brew.sh/formula/http-server) [![npm downloads](https://img.shields.io/npm/dm/http-server?color=blue&label=npm%20downloads&style=flat-square)](https://www.npmjs.com/package/http-server)
 [![license](https://img.shields.io/github/license/http-party/http-server.svg?style=flat-square)](https://github.com/http-party/http-server)
 
+
+
+This tool is extended on the basis of h`http-server`, and supports the reading of json files, which is convenient for scenarios that require local access to json files to replace local fake data.
+
+How to use it unchanged, still use it according to http-server
+
 # http-server: a command-line http server
 
 `http-server` is a simple, zero-configuration command-line http server.  It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development, and learning.
@@ -25,7 +31,7 @@ This will install `http-server` globally so that it may be run from the command 
 Using `npx` you can run the script without installing it first:
 
     npx http-server [path] [options]
-     
+
 #### As a dependency in your `npm` package:
 
     npm install http-server

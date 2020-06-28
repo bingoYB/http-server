@@ -7,6 +7,19 @@
     <h1>Serving up static files like they were turtles strapped to rockets.</h1>
 
     <img src="./img/turtle.png"/>
+    <script>
+      var url = '/test.json';
+        var data = { username: 'example' };
+        fetch(url, {
+          method: 'POST', // or 'PUT'
+          body: JSON.stringify(data), // data can be `string` or {object}!
+          headers: new Headers({
+            'Content-Type': 'application/json'
+          })
+        }).then(res => res.json())
+          .catch(error => console.error('Error:', error))
+          .then(response => console.log('Success:', response));
+    </script>
   </body>
 </html>
 
